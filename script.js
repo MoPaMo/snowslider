@@ -1,4 +1,3 @@
-document.onload(function () {
   // module aliases
   var Engine = Matter.Engine,
     Render = Matter.Render,
@@ -29,4 +28,3 @@ document.onload(function () {
 
   // run the renderer
   Render.run(render);
-});
